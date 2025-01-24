@@ -43,14 +43,14 @@ struct HomeView: View {
                         .padding(.bottom)
                         
                         VStack(alignment: .leading, spacing: 8){
-                            Text("Stand Time")
+                            Text("Stand")
                                 .font(.callout)
                                 .bold()
                                 .foregroundColor(.blue)
                             Text("8 hours")
                                 .bold()
                         }
-                        .padding(.bottom)
+//                        .padding(.bottom)
                     }
                     Spacer()
                     ZStack {
